@@ -1,4 +1,4 @@
-nname: my first pipeline
+name: my first pipeline
 
 on:
   push:
