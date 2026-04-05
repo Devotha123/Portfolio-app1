@@ -1,0 +1,21 @@
+nname: my first pipeline
+
+on:
+  push:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: uptime
+        run: uptime
+
+      - name: number of processors
+        run: nproc
+
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: hello
+        run: echo "hello"
+         
